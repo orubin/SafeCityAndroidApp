@@ -17,7 +17,6 @@ public class Help extends Activity {
         tv.setText(Html.fromHtml("<a href=''></a>\n"));
         tv.setAutoLinkMask(Linkify.WEB_URLS);
         tv = (TextView) findViewById(R.id.textView3);
-        tv.setText("");
-        
+        tv.setText("");    
    }
 }
