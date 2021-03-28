@@ -1,9 +1,8 @@
 <?php
 $con = mysql_connect("62.219.78.224","4779_karali","karali");
-if (!$con)
-  {
+if (!$con){
   die('Could not connect: ' . mysql_error());
-  }
+}
 
 mysql_select_db("4779-karali", $con);
 
